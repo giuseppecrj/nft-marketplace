@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/g/workspace/digital-marketplace/contracts/Market.sol": {
-      "lastModificationDate": 1625683895998,
-      "contentHash": "ca9ac3e2acc89a47960a4fcd2908fdf0",
+      "lastModificationDate": 1626407616746,
+      "contentHash": "f8e7f34acb8eff5af095aa0fe2f1d479",
       "sourceName": "contracts/Market.sol",
       "solcConfig": {
         "version": "0.8.4",

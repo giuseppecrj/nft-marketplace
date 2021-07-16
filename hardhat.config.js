@@ -1,6 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
 const fs = require('fs')
-const privateKey = fs.readFileSync(`.secret`).toString().trim() || `01234567890123456789`
+const privateKey = fs.readFileSync(`.secrets`).toString().trim() || `01234567890123456789`
 
 task("accounts", "Prints the list of accounts", async () => {
   const accounts = await ethers.getSigners();
@@ -10,7 +10,7 @@ task("accounts", "Prints the list of accounts", async () => {
 });
 
 module.exports = {
-  defaultNetwork: 'hardhat',
+  defaultNetwork: 'mumbai',
   networks: {
     hardhat: {
       chainId: 1337
